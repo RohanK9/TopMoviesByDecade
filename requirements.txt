@@ -1,1 +1,2 @@
 setuptools==1.0
+DISTRIBUTE_VERSION="0.6.45"
