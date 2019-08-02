@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(231, 228, 228);
+  }
+
+.logo {
+    text-align: center;
+}
+
+.content {
+  text-align: center
+}
+
+a:link {
+  color:black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color:black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color:rgb(44, 43, 43);
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: rgb(44, 43, 43);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.decade_button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button_position {
+  padding: 70px 0;
+}

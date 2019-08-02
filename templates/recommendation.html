@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Movie Recommendations</title>
+  </head>
+
+  <body>
+    {% extends "template.html" %}
+    {% block content %}
+    <div class="content">
+    <h1>Your movie recommendation is:</h1>
+    {% for movie in movieData %}
+      <strong>Name: </strong>{{movie.name}}
+      <strong>Year: </strong>{{movie.year}}
+      <br><br>
+      <img src="{{movie.poster}}">
+      <br><br>
+      <strong>prime: </strong>{{movie.prime}}
+      <strong>yt: </strong>{{movie.yt}}
+      <strong>google: </strong>{{movie.google}}
+      <strong>vudu: </strong>{{movie.vudu}}
+      <strong>itunes: </strong>{{movie.itunes}}
+      <strong>netflix: </strong>{{movie.netflix}}
+    {% endfor %}
+    </div>
+    {% endblock %}
+  </body>
+</html>

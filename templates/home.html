@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Movie Recommendations</title>
+  </head>
+  <body>
+    {% extends "template.html" %}
+    {% block content %}
+    <div class="content">
+    <h2> Welcome to Top Movies! </h2>
+    <p> Please click on the button corresponding to the decade you want to watch a movie from. </p>
+    <div class="button_position">
+    <a href="/recommendation1970s"><button class="decade_button">1970s</button></a>
+    <a href="/recommendation1980s"><button class="decade_button">1980s</button></a>
+    <a href="/recommendation1990s"><button class="decade_button">1990s</button></a>
+    <a href="/recommendation2000s"><button class="decade_button">2000s</button></a>
+    </div>
+    </div>
+    {% endblock %}
+  </body>
+</html>
