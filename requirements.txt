@@ -1,2 +1,2 @@
 setuptools==1.0
-DISTRIBUTE_VERSION="0.6.45"
+python_version < '2.7'
